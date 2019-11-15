@@ -1,0 +1,45 @@
+.branding-01-top-left,
+.branding-01-top-right,
+.branding-01-bottom-left,
+.branding-01-bottom-right {
+    background: url('../../img/01.svg');
+}
+.branding-01-top-left {
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.branding-01-top-right {
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.branding-01-bottom-left {
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+.branding-01-bottom-right {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.branding-02-top-left,
+.branding-02-top-right,
+.branding-02-bottom-left,
+.branding-02-bottom-right {
+    background: url('../../img/02.svg');
+}
+.branding-02-top-left {
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.branding-02-top-right {
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.branding-02-bottom-left {
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+.branding-02-bottom-right {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}

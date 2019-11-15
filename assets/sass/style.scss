@@ -1,0 +1,76 @@
+/*
+ *  Location: /sass
+ *  Purpose: Single css rules for use in various places
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'singles.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: max-widths, padding and offsets
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'container.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: define the color palette
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'color.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: manage all nav styles
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'nav.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: manage all btn styles
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'btn.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: manage all SVG alignments
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'svg.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: layout grid
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'grid.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: fix default browser and general bugs
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'global.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: manage all img styles
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'img.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: hide and show tabs
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'tabs.scss';
+
+/*
+ *  Location: /sass
+ *  Purpose: encompass all responsive styles
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'responsive.scss';

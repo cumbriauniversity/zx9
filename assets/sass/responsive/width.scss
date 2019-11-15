@@ -1,0 +1,25 @@
+@mixin responsive-partial-width($view-point)
+{
+
+  .width-auto-at-#{$view-point} {
+    width:auto;
+  }
+
+  $sizes-list: 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100;
+  @each $current-size in $sizes-list {
+    .width-#{$current-size}-at-#{$view-point} {
+      width:#{$current-size}#{'#'};
+    }
+  }
+
+  $sizes-list: 25 50 100 150 300 600 900 1200;
+  @each $current-size in $sizes-list {
+    .width-#{$current-size}px-at-#{$view-point} {
+      width:#{$current-size}px;
+    }
+    .max-width-#{$current-size}px-at-#{$view-point} {
+      max-width:#{$current-size}px;
+    }
+  }
+
+}

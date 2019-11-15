@@ -1,0 +1,25 @@
+@mixin responsive-partial-display($view-point)
+{
+
+  .on-at-#{$view-point} {
+    display:inherit;
+  }
+
+  .off-at-#{$view-point} {
+    display:none;
+  }
+
+  .inline-block-at-#{$view-point} {
+    display:inline-block;
+  }
+
+  .table-at-#{$view-point} {
+    display:table;
+  }
+
+  .table-fixed-at-#{$view-point} {
+    display:table;
+    table-layout: fixed;
+  }
+
+}

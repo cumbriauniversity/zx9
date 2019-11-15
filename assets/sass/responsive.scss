@@ -1,0 +1,99 @@
+/*
+ *  Location: /sass/responsive/
+ *  Purpose: encompass all width rules
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'responsive/width.scss';
+
+/*
+ *  Location: /sass/responsive/
+ *  Purpose: manage element visibility
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'responsive/display.scss';
+
+/*
+ *  Location: /sass/responsive/
+ *  Purpose: manage paddings
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'responsive/paddings.scss';
+
+/*
+ *  Location: /sass/responsive/
+ *  Purpose: manage margins
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+@import 'responsive/margin.scss';
+
+@media ( min-width:0px ) {
+
+  @include responsive-partial-width( $view-point: 0 );
+  @include responsive-partial-display( $view-point: 0 );
+  @include responsive-partial-paddings( $view-point: 0 );
+  @include responsive-partial-margins( $view-point: 0 );
+
+}
+
+@media ( min-width:400px ) {
+
+  @include responsive-partial-width( $view-point: 400 );
+  @include responsive-partial-display( $view-point: 400 );
+  @include responsive-partial-paddings( $view-point: 400 );
+  @include responsive-partial-margins( $view-point: 400 );
+
+}
+
+@media ( min-width:550px ) {
+
+  @include responsive-partial-width( $view-point: 550 );
+  @include responsive-partial-display( $view-point: 550 );
+  @include responsive-partial-paddings( $view-point: 550 );
+  @include responsive-partial-margins( $view-point: 550 );
+
+}
+
+@media ( min-width:700px ) {
+
+  @include responsive-partial-width( $view-point: 700 );
+  @include responsive-partial-display( $view-point: 700 );
+  @include responsive-partial-paddings( $view-point: 700 );
+  @include responsive-partial-margins( $view-point: 700 );
+
+}
+
+@media ( min-width:850px ) {
+
+  @include responsive-partial-width( $view-point: 850 );
+  @include responsive-partial-display( $view-point: 850 );
+  @include responsive-partial-paddings( $view-point: 850 );
+  @include responsive-partial-margins( $view-point: 850 );
+
+}
+
+@media ( min-width:1000px ) {
+
+  @include responsive-partial-width( $view-point: 1000 );
+  @include responsive-partial-display( $view-point: 1000 );
+  @include responsive-partial-paddings( $view-point: 1000 );
+  @include responsive-partial-margins( $view-point: 1000 );
+
+}
+
+@media ( min-width:1150px ) {
+
+  @include responsive-partial-width( $view-point: 1150 );
+  @include responsive-partial-display( $view-point: 1150 );
+  @include responsive-partial-paddings( $view-point: 1150 );
+  @include responsive-partial-margins( $view-point: 1150 );
+
+}
+
+@media ( min-width:1300px ) {
+
+  @include responsive-partial-width( $view-point: 1300 );
+  @include responsive-partial-display( $view-point: 1300 );
+  @include responsive-partial-paddings( $view-point: 1300 );
+  @include responsive-partial-margins( $view-point: 1300 );
+
+}

@@ -1,0 +1,20 @@
+@mixin responsive-partial-paddings($view-point)
+{
+
+  $sizes-list: 0 1 4 8 16 29 58 116;
+  @each $current-size in $sizes-list {
+    [padding-at-#{$view-point}*="top-#{$current-size}px"] {
+      padding-top:#{$current-size}px;
+    }
+    [padding-at-#{$view-point}*="bottom-#{$current-size}px"] {
+      padding-bottom:#{$current-size}px;
+    }
+    [padding-at-#{$view-point}*="left-#{$current-size}px"] {
+      padding-left:#{$current-size}px;
+    }
+    [padding-at-#{$view-point}*="right-#{$current-size}px"] {
+      padding-right:#{$current-size}px;
+    }
+  }
+
+}

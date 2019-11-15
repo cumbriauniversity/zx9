@@ -1,0 +1,20 @@
+@mixin responsive-partial-margins($view-point)
+{
+
+  $sizes-list: 0 1 4 8 16 29 58 116;
+  @each $current-size in $sizes-list {
+    [margin-at-#{$view-point}*="top-#{$current-size}px"] {
+      margin-top:#{$current-size}px;
+    }
+    [margin-at-#{$view-point}*="bottom-#{$current-size}px"] {
+      margin-bottom:#{$current-size}px;
+    }
+    [margin-at-#{$view-point}*="left-#{$current-size}px"] {
+      margin-left:#{$current-size}px;
+    }
+    [margin-at-#{$view-point}*="right-#{$current-size}px"] {
+      margin-right:#{$current-size}px;
+    }
+  }
+
+}
