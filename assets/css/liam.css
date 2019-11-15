@@ -38,3 +38,11 @@
 .background-trans {
   background-color: #fff0;
 }
+
+.separator-1 {
+  height: 1px;
+}
+
+.separator-2 {
+  height: 2px;
+}
