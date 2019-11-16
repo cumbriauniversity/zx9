@@ -223,6 +223,39 @@ header nav ul, header nav li {
 
 /*
  *  Location: /sass
+ *  Purpose: managing z-index rules
+ *  Developed by: Ryan Edmondson- UOC UX Engineer
+ */
+.layer-1 {
+  z-index:1;
+}
+
+.layer-2 {
+  z-index:2;
+}
+
+.layer-3 {
+  z-index:3;
+}
+
+.layer-4 {
+  z-index:4;
+}
+
+.layer-5 {
+  z-index:5;
+}
+
+.modal-background {
+  z-index:6;
+}
+
+.modal-content {
+  z-index:7;
+}
+
+/*
+ *  Location: /sass
  *  Purpose: fix default browser and general bugs
  *  Developed by: Ryan Edmondson- UOC UX Engineer
  */
