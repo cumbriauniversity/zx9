@@ -60,79 +60,56 @@
  *  Developed by: Ryan Edmondson- UOC UX Engineer
  */
 body {
-  color: #3c3c3b; }
-
-.background-dark-grey {
-  background: #ceced2; }
+  color:#3c3c3b;
+}
 
 .background-white {
-  background: #ffffff; }
+	background:#ffffff;
+}
 
-.background-light-grey {
-  background: #f5f5f7; }
+.background-black {
+	background:#000000;
+}
 
-.background-blue {
-  background: #1b25aa; }
-
-.background-orange {
-  background: #ff8f00; }
-
-.background-dark-blue {
-  background: #071478; }
-
-.background-mid-blue {
-  background: #171f8f; }
-
-.c-white {
-  color: #ffffff; }
-
-.c-dark-white {
-  color: #babde5; }
-
-.c-blue {
-  color: #1b25aa; }
-
-.c-orange {
-  color: #ff8f00; }
-
-.hover-c-white:hover {
-  color: #ffffff; }
-
-.hover-c-dark-white:hover {
-  color: #babde5; }
-
-.hover-c-blue:hover {
-  color: #1b25aa; }
-
-.hover-bg-blue:hover {
-  background: #1b25aa; }
+.background-transparent {
+	background:transparent;
+}
 
 .opacity-10 {
-  opacity: 0.1; }
+	opacity:0.1;
+}
 
 .opacity-20 {
-  opacity: 0.2; }
+	opacity:0.2;
+}
 
 .opacity-30 {
-  opacity: 0.3; }
+	opacity:0.3;
+}
 
 .opacity-40 {
-  opacity: 0.4; }
+	opacity:0.4;
+}
 
 .opacity-50 {
-  opacity: 0.5; }
+	opacity:0.5;
+}
 
 .opacity-60 {
-  opacity: 0.6; }
+	opacity:0.6;
+}
 
 .opacity-70 {
-  opacity: 0.7; }
+	opacity:0.7;
+}
 
 .opacity-80 {
-  opacity: 0.8; }
+	opacity:0.8;
+}
 
 .opacity-90 {
-  opacity: 0.9; }
+	opacity:0.9;
+}
 
 /*
  *  Location: /sass
