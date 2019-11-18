@@ -48,11 +48,11 @@
  *  Developed by: Ryan Edmondson- UOC UX Engineer
  */
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto; }
 
 .container-half {
-  max-width: 600px; }
+  max-width: 650px; }
 
 /*
  *  Location: /sass
@@ -598,6 +598,14 @@ input[type="checkbox"] {
   [padding-at-0*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-0*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-0*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-0*="top-0px"] {
     margin-top: 0px; }
 
@@ -917,6 +925,14 @@ input[type="checkbox"] {
   [padding-at-400*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-400*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-400*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-400*="top-0px"] {
     margin-top: 0px; }
 
@@ -1236,6 +1252,14 @@ input[type="checkbox"] {
   [padding-at-550*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-550*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-550*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-550*="top-0px"] {
     margin-top: 0px; }
 
@@ -1555,6 +1579,14 @@ input[type="checkbox"] {
   [padding-at-700*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-700*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-700*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-700*="top-0px"] {
     margin-top: 0px; }
 
@@ -1874,6 +1906,14 @@ input[type="checkbox"] {
   [padding-at-850*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-850*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-850*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-850*="top-0px"] {
     margin-top: 0px; }
 
@@ -2193,6 +2233,14 @@ input[type="checkbox"] {
   [padding-at-1000*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-1000*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-1000*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-1000*="top-0px"] {
     margin-top: 0px; }
 
@@ -2512,6 +2560,14 @@ input[type="checkbox"] {
   [padding-at-1150*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-1150*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-1150*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-1150*="top-0px"] {
     margin-top: 0px; }
 
@@ -2831,6 +2887,14 @@ input[type="checkbox"] {
   [padding-at-1300*="right-116px"] {
     padding-right: 116px; }
 
+  [margin-at-1300*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-1300*="right-auto"] {
+    margin-right:auto; 
+  }
+	
   [margin-at-1300*="top-0px"] {
     margin-top: 0px; }
 
