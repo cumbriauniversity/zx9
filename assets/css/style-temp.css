@@ -67,12 +67,24 @@ body {
 	background:#ffffff;
 }
 
+.background-light-grey {
+	background:#f4f4f4;
+}
+
 .background-black {
 	background:#000000;
 }
 
+.background-purple {
+	background:#793cbd;
+}
+
 .background-transparent {
 	background:transparent;
+}
+
+.color-white {
+	color:#ffffff;
 }
 
 .opacity-10 {
