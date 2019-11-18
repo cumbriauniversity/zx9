@@ -46,3 +46,42 @@
 .separator-2 {
   height: 2px;
 }
+
+/*
+ * FONT COLORS
+ */
+.c-white {
+  color: #ffffff; }
+
+.c-dark-white {
+  color: #babde5; }
+
+.c-blue {
+  color: #1b25aa; }
+
+.tab-control-active.tab-active-orange-color, .c-orange {
+  color: #ff8f00; }
+
+.c-green {
+  color: #7cc45a; }
+
+/*
+ * FONT COLORS (HOVERS)
+ */
+.hover-c-white:hover {
+  color: #ffffff; }
+
+.hover-c-dark-white:hover {
+  color: #babde5; }
+
+.hover-c-blue:hover {
+  color: #1b25aa; }
+
+.hover-c-orange:hover {
+  color: #ff8f00; }
+
+.hover-bg-blue:hover {
+  background: #1b25aa; }
+
+.hover-fill-orange:hover * {
+  fill: #f88f00; }
