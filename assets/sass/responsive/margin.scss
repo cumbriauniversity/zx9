@@ -1,6 +1,14 @@
 @mixin responsive-partial-margins($view-point)
 {
 
+  [margin-at-#{$view-point}*="left-auto"] {
+    margin-left:auto; 
+  }
+  
+  [margin-at-#{$view-point}*="right-auto"] {
+    margin-right:auto; 
+  }
+  
   $sizes-list: 0 1 4 8 16 29 58 116;
   @each $current-size in $sizes-list {
     [margin-at-#{$view-point}*="top-#{$current-size}px"] {
