@@ -85,3 +85,49 @@
 
 .hover-fill-orange:hover * {
   fill: #f88f00; }
+
+
+/*
+ * BACKGROUND COLORS
+ */
+.background-dark-grey {
+  background: #ceced2; }
+
+.background-light-grey {
+  background: #f5f5f7; }
+
+.tab-control-active.tab-active-white-background, .background-white {
+  background: #ffffff; }
+
+.background-black {
+  background:#000000;}
+
+.tab-control-active.tab-active-blue-background, .background-blue {
+  background: #1b25aa; }
+
+.background-dark-blue {
+  background: #071478; }
+
+.background-mid-blue {
+  background: #171f8f; }
+
+.tab-control-active.tab-active-orange-background, .background-orange {
+  background: #ff8f00; }
+
+.background-turquoise {
+  background: #1ccfc9; }
+
+.background-white-overlay {
+  background: rgba(255, 255, 255, 0.75); }
+
+.background-black-overlay {
+  background: rgba(0, 0, 0, 0.75); }
+
+.background-turquoise {
+  background: rgba(28, 207, 201, 0.75); }
+
+.background-dark-blue {
+  background: rgba(7, 20, 120, 0.75); }
+
+.background-mid-blue {
+  background: rgba(23, 31, 143, 0.75); }
