@@ -134,3 +134,19 @@
 
 .background-red {
   background: rgba(251, 44, 62, 1); }
+
+
+/*  Icon Heights  */
+
+icon-height-50{
+  max-height:50px;
+}
+icon-height-150{
+  max-height:150px;
+}
+icon-height-200{
+  max-height:200px;
+}
+icon-height-250{
+  max-height:250px;
+}
