@@ -1,18 +1,1 @@
-header nav ul,header nav li {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-}
 
-.sub-nav-dropdown {
-    position: absolute;
-    top: 100%;
-    right: 0px;
-    width: 100%;
-    display:none;
-    z-index: 2;
-}
-
-*:hover > .sub-nav-dropdown {
-    display:block;
-}
