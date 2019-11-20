@@ -3,8 +3,10 @@
  *  Purpose: Single css rules for use in various places
  *  Developed by: Ryan Edmondson- UOC UX Engineer
  */
+.parent-hover-display-block:hover > *,
 .display-block {
-  display: block; }
+	display:block;
+}
 
 .relative {
   position: relative; }
