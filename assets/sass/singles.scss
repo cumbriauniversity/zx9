@@ -14,8 +14,12 @@
   margin:auto;
 }
 
+.first-heading-no-margin-top > *:first-child {
+  margin-top:0px;
+}
+
 .text-uppercase {
-	text-transform:uppercase;
+  text-transform:uppercase;
 }
 
 .box-sizing-border-box {
