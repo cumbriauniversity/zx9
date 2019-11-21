@@ -156,3 +156,18 @@
   font-size:90px;
   font-weight:800;
 }
+
+
+[absolute-settings*="left--50"] {
+  left:-50%;
+}
+[absolute-settings*="right--50"] {
+  right:-50%;
+}
+
+[absolute-settings*="left-50"] {
+  left:50%;
+}
+[absolute-settings*="right-50"] {
+  right:50%;
+}
