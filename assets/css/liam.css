@@ -229,3 +229,22 @@
   padding-bottom: 64px;
   min-width: 170px;
 }
+
+/* footer */
+
+.text-indent-16{
+  text-indent: 16px;
+}
+
+.list-style-type-none{
+  list-style-type: none; 
+}
+.column-count-2{
+  column-count:2;
+}
+.column-count-3{
+  column-count:3;
+}
+.column-count-4{
+  column-count:4;
+}
