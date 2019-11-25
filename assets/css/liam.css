@@ -74,6 +74,8 @@
 .background-trans {
   background-color: #fff0;
 }
+.background-pink {
+  color: #ee0089; }
 
 .separator-1 {
   height: 1px;
@@ -100,6 +102,12 @@
 
 .c-green {
   color: #7cc45a; }
+
+.c-purple {
+  color: #793cbd; }
+
+.c-pink {
+  color: #ee0089; }
 
 /*
  * FONT COLORS (HOVERS)
@@ -206,4 +214,18 @@
 }
 [absolute-settings*="right-50"] {
   right:50%;
+}
+
+/* stats styles */
+
+.text-align-justify{
+  text-align:justify;
+}
+
+.stat-circle{
+  border-radius: 50%;
+  font-weight: 800;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  min-width: 180px;
 }
