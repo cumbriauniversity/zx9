@@ -257,3 +257,7 @@
 .child-list-padding-top-8px > li {
     padding-top: 8px;
 }
+
+.width-500px-at-0{
+  width:500px;
+}
