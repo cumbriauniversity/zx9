@@ -227,6 +227,7 @@
   font-weight: 800;
   padding-top: 48px;
   padding-bottom: 48px;
+  min-width:100px;
 }
 
 /* footer */
