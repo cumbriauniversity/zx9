@@ -261,3 +261,8 @@
 .width-500px-at-0{
   width:500px;
 }
+
+
+.casestudy .glider-slide img {
+    max-width: none;
+}
