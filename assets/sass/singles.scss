@@ -58,3 +58,18 @@
 .text-align-left {
   text-align:left;
 }
+
+@keyframes animation-fade-slide {
+  0% {
+    top:29px;
+    opacity:0;
+  }
+  100% {
+    top:0px;
+    opacity:1;
+  }
+}
+
+.animation-fade-slide {
+    animation: animation-fade-slide 0.3s linear forwards;
+}
