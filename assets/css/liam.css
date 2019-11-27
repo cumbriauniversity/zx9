@@ -68,7 +68,7 @@
 
 .vh-35-at-850 {
   height: 35vh;
-}
+}  
 }
 
 .background-trans {
@@ -257,15 +257,15 @@
 .child-list-padding-top-8px > li {
     padding-top: 8px;
 }
-
-.width-500px-at-850{
-  width:500px;
-}
 .width-275px-at-0{
   width:275px;
 }
-
-
 .casestudy .glider-slide img {
     max-width: none;
+}
+
+@media (min-width: 850px) {
+.width-500px-at-850{
+  width:500px;
+}
 }
