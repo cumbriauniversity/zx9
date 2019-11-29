@@ -269,3 +269,7 @@
   width:500px;
 }
 }
+
+.slide{
+  transition: left 2s;
+}
