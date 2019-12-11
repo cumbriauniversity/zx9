@@ -290,8 +290,8 @@ body, input {
     font-size:14px;
 }
 
-strong {
-	font-family: 'FFMiloWebProBold', sans-serif;
+.font-weight-900 {
+    font-weight:900;
 }
 
 a {
