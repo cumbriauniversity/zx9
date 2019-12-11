@@ -286,7 +286,7 @@ header nav ul, header nav li {
 @font-face {font-family: 'FFMiloWebPro'; src: url('https://cumbria.ac.uk/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.eot'); src: url('https://cumbria.ac.uk/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.eot?#iefix') format('embedded-opentype'),url('https://cumbria.ac.uk/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.ttf') format('woff2'),url('https://cumbria.ac.uk/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.woff') format('woff'),url('https://cumbria.ac.uk/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.woff2') format('truetype');}
 body, input {
     margin: 0px;
-    font-family: font-family: 'FFMiloWebPro';
+    font-family: 'FFMiloWebPro';
     font-size:14px;
 }
 
