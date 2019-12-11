@@ -282,10 +282,16 @@ header nav ul, header nav li {
  *  Purpose: fix default browser and general bugs
  *  Developed by: Ryan Edmondson- UOC UX Engineer
  */
+@font-face {font-family: 'FFMiloWebProBold'; src: url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_0_0.eot'); src: url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_0_0.eot?#iefix') format('embedded-opentype'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_0_0.ttf') format('woff2'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_0_0.woff') format('woff'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_0_0.woff2') format('truetype');}
+@font-face {font-family: 'FFMiloWebPro'; src: url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.eot'); src: url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.eot?#iefix') format('embedded-opentype'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.ttf') format('woff2'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.woff') format('woff'),url('/media/university-of-cumbria-website/style-assets/fonts/milo/36A70A_4_0.woff2') format('truetype');}
 body, input {
     margin: 0px;
-    font-family: 'Maven Pro', sans-serif;
+    font-family: font-family: 'FFMiloWebPro';
     font-size:14px;
+}
+
+strong {
+	font-family: 'FFMiloWebProBold';
 }
 
 a {
