@@ -628,6 +628,20 @@ input[type="checkbox"] {
 
   .table-at-0 {
     display: table; }
+	
+  .table-at-0 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-0 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-0 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-0 {
     display: table;
@@ -955,6 +969,20 @@ input[type="checkbox"] {
 
   .table-at-400 {
     display: table; }
+	
+  .table-at-400 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-400 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-400 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-400 {
     display: table;
@@ -1282,6 +1310,20 @@ input[type="checkbox"] {
 
   .table-at-550 {
     display: table; }
+	
+  .table-at-550 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-550 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-550 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-550 {
     display: table;
@@ -1609,6 +1651,20 @@ input[type="checkbox"] {
 
   .table-at-700 {
     display: table; }
+	
+  .table-at-700 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-700 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-700 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-700 {
     display: table;
@@ -1936,6 +1992,20 @@ input[type="checkbox"] {
 
   .table-at-850 {
     display: table; }
+	
+  .table-at-850 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-850 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-850 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-850 {
     display: table;
@@ -2263,6 +2333,20 @@ input[type="checkbox"] {
 
   .table-at-1000 {
     display: table; }
+	
+  .table-at-1000 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-1000 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-1000 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-1000 {
     display: table;
@@ -2590,6 +2674,20 @@ input[type="checkbox"] {
 
   .table-at-1150 {
     display: table; }
+	
+  .table-at-1150 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-1150 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-1150 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-1150 {
     display: table;
@@ -2917,6 +3015,20 @@ input[type="checkbox"] {
 
   .table-at-1300 {
     display: table; }
+	
+  .table-at-1300 > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-1300 > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-1300 > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-1300 {
     display: table;
