@@ -16,6 +16,20 @@
   .table-at-#{$view-point} {
     display:table;
   }
+  
+  .table-at-#{$view-point} > .col {
+      display: table-cell;
+      float: none;
+      vertical-align:top;
+  }
+
+  .table-at-#{$view-point} > .col.col-bottom {
+      vertical-align: bottom;
+  }
+
+  .table-at-#{$view-point} > .col.col-middle {
+      vertical-align: middle;
+  }
 
   .table-fixed-at-#{$view-point} {
     display:table;
