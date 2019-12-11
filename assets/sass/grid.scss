@@ -10,17 +10,3 @@
 .col-right {
     float: right;
 }
-
-.row-table > .col {
-    display: table-cell;
-    float: none;
-	  vertical-align:top;
-}
-
-.row-table > .col.col-bottom {
-    vertical-align: bottom;
-}
-
-.row-table > .col.col-middle {
-    vertical-align: middle;
-}
