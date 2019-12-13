@@ -26,6 +26,11 @@ body {
 	color:#ffffff;
 }
 
+.fade-in-on-scroll {
+    transition:opacity 2s linear;
+}
+
+.fade-in-on-scroll,
 .opacity-0 {
     opacity: 0;
 }
@@ -64,4 +69,8 @@ body {
 
 .opacity-90 {
 	opacity:0.9;
+}
+
+.fade-in-on-scroll-active {
+	opacity:1;
 }
